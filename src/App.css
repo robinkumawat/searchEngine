@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+.googleinput{
+  margin: auto;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+/* .googleinput input :hover
+{
+  border: none;
+} */
+.googleinput input
+{
+border: none;
+height: 40px;
+width:500px;
+border: 2px solid blue;
+border-radius: 50px;
+}
+.logo {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.googleinput button
+{
+  border: 2px solid gray;
+  border: none;
+  height: 40px;
+  width: 70px;
+  border-radius: 20px;
+}
